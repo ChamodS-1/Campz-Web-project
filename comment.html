@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="styles/comments.css">
+    <script src="comment.js" defer></script>
+    <title>blog.</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <h1>blog.</h1>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="destination.html">Destinations</a></li>
+            <li><a href="comment.html">Comments</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+    </div>
+
+    <div class="colorline">
+
+    </div>
+    <div class="form">
+    <form>
+        <h1>comments</h1>
+        
+        <label for="name">name</label>
+        <input type="text" id="name" name="user-name" required>
+
+        <label for="user-Area">your comment /<span id="number">99</span> </label>
+        <textarea name="user-Text" id="user-Area" cols="30" rows="7" maxlength="99"></textarea>
+        <button type="submit">Submit</button>
+        </form>
+    </div>
+    <div class="commentSection">
+        <h1>all comments(<span id="number2">0</span>)</h1>
+        <ul id="ulList">
+
+        </ul>
+    </div>
+    </form>
+</body>
+</html>
+
+
+
+
+
+

@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(255, 255, 255);    
+}
+
+.navbar{
+
+    display: flex;
+    gap: 20px;
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 2;
+    padding: 0.6rem 0rem 0.6rem 14.8rem;
+    background-color: rgb(13,14,17);
+    color: rgb(211, 211, 211);
+    box-shadow: 0 3px 9px rgb(0, 0, 0,0.2);    
+}
+
+.navbar h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rgb(221, 38, 38);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-self: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
+    font-weight: 530;
+    gap: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+     color: rgb(211, 211, 211);
+}
+
+ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+ul li::before{
+    position: absolute;
+    content: '';
+    height: 5px;
+    width: 15px;
+    background-color: aliceblue;
+    display: none;
+}
+
+.colorline{
+    height: 8px;
+    width: 100%;
+    background :linear-gradient(45deg, red,yellow,rgb(179, 16, 234),blue);
+}
+
+.form{
+    width: fit-content;
+    margin: 2rem auto;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.form h1{
+    font-weight: 600;
+}
+
+input,textarea,button{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+input{
+    width: 35rem;
+    height: 3rem;
+    padding: 0.5rem;
+    margin-bottom: 1.1rem;
+    border: 2px solid black;
+}
+textarea{
+    width: 35rem;
+    padding: 0.5rem;
+    border: 2px solid black;
+    margin-bottom: 0.9rem;
+    resize: vertical;
+
+}
+
+button{
+    padding: 0.3rem 1.4rem;
+    background-color: black;
+    color: aliceblue;
+    transition: transform 0.3s ease;
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+
+button:active{
+
+    transform: scale(0.9);
+}
+
+#ulList{
+    list-style: none;
+   
+    display: block;
+    
+}
+
+.comments{
+    width: 75rem;
+}
+
+.comments h4{
+    margin-top: 1.2rem;
+}
+.comments h4,h2{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: aliceblue;
+}
+
+.line{
+   
+    width:100px;
+    height: 1px;
+    width: 50.2rem;
+    background-color: rgb(255, 255, 255);
+}
+
+.commentSection {
+
+
+    background-color: rgb(13,14,17);;
+    font-family: 'Poppins', sans-serif;
+    width: fit-content;
+    padding:1rem  0 1rem 15rem;
+    width: 96rem;
+   
+}
+
+.commentSection h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    width: fit-content;
+    font-weight: 600;
+   
+}
+

@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(32, 33, 39);;        
+}
+.navbar{
+
+    display: flex;
+    gap: 20px;
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 2;
+    padding: 0.6rem 0rem 0.6rem 14.8rem;
+    background-color: rgb(13,14,17);
+    color: rgb(211, 211, 211);
+    box-shadow: 0 3px 9px rgb(0, 0, 0,0.2);      
+}
+
+.navbar h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-self: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
+    font-weight: 530;
+    gap: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+     color: rgb(211, 211, 211);
+}
+
+ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+ul li::before{
+    position: absolute;
+    content: '';
+    height: 10px;
+    width: 30px;
+    background-color: aliceblue;
+    display: none;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(4,7rem);
+    grid-template-rows: repeat(2,14.5rem);
+    gap: 9.77rem;
+    position: relative;
+    top:4.2rem;
+    left: 14.95rem;
+    width: fit-content;
+}
+
+.cover{
+    transition: transform 0.3s ease;
+}
+
+.cover:hover{
+    transform: scale(0.97);
+}
+.album{
+
+    width: 253px;
+    height: 328px;
+    background-color: rgb(0, 0, 0);
+    overflow: hidden;   
+}
+
+.section p{
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: aliceblue;
+    
+}
+
+.section{
+    position: relative;
+    top:3.5rem;
+    left: 14.9rem;
+    width: fit-content;
+}
+
+img{
+    position: relative;
+}
+
+.pic{
+    width: 190%;
+    left: -2rem;
+    top:-1rem;    
+}
+
+.pic1{
+    width: 170%;
+    left: -5rem;   
+}
+
+.pic2{
+    width: 190%;
+    left: -3rem;    
+}
+
+.pic3{
+    width: 100%;
+       
+}
+
+.pic4{
+    width: 180%;
+    left: -4.5rem;      
+}
+
+.pic5{
+    width: 300%;
+    left: -12rem;       
+}
+
+
+.image-topics{
+    margin-top: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgb(142, 142, 142);
+}
