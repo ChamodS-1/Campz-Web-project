@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+
+.mainBlock{
+    position: absolute;
+    top: 8rem;
+}
+
+.mainBlock1{
+
+    position: relative;
+    left: 15rem;
+    top: 10rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    position: relative;
+   
+    color: rgb(0, 0, 0);
+          
+}
+
+.mainblock2 .circle1{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: aliceblue;
+    transition: transform 0.3s ease;
+}
+
+.mainblock2 .circle1:hover{
+    transform: scale(1.8);
+}
+
+.mainblock2{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    position: relative;
+    top:16.5rem;
+    left: 24.5rem;
+}
+
+
+#color1{
+    background-color: rgb(220, 220, 220);
+}
+#color2{
+    background-color: rgb(177, 177, 177);
+}
+#color3{
+    background-color: rgb(138, 138, 138);
+}#color4{
+    background-color: rgb(101, 101, 101);
+}#color5{
+    background-color: rgb(66, 66, 66);
+}#color6{
+    background-color: rgb(34, 34, 34);
+}
+
+h2{
+    color: black;
+    font-weight: 600;
+}
+
+.about{
+    display: flex;
+    margin-left: 35rem;
+    margin-top: 3rem;
+
+    width: fit-content;
+}
+
+.mainBlock{
+    position: relative;
+    top: -16rem;
+    left: -12rem;
+}
+
+.horizon{
+    width: 4px;
+    height: 150px;
+    background :linear-gradient(45deg, rgb(255, 0, 191),rgb(96, 255, 236),rgb(179, 16, 234),rgb(255, 176, 79));
+    margin-left: 3rem;
+}

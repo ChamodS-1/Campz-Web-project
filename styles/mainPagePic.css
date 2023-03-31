@@ -1,0 +1,10 @@
+.mainpage{
+    background-image: url('/images/test3.png');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    width: 96rem;
+    height: 57rem; 
+      
+}

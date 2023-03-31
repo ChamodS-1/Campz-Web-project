@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    overflow: hidden;
+    
+}
+
+.mainpage{
+    background-image: url('/images/mainpic6.png');
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+    width: 98rem;
+    height: 55em;
+    left: 6rem; 
+    top:-3rem;   
+}
+
+.welcome{
+    font-family: 'Poppins', sans-serif;
+    font-size: 5rem;
+    font-weight: 600;
+    color: azure;
+}
+
+.topic{
+
+    position: relative;
+    left: 9rem;
+    top:8rem;
+    user-select: none;
+}
+
+.blog{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    position: relative;
+    top:3.1rem;
+    color: rgb(211, 211, 211);
+    opacity: 0.5;
+}
+
+.topic h4{
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 360;
+    color: rgb(211, 211, 211);
+    padding-bottom: 1rem;
+}
+
+.watermark{
+
+    position: relative;
+    left: 77rem;
+    top: 15rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    position: relative;
+    opacity: 0.8;
+    color: rgb(246, 246, 246);
+}
+
+
+.icons{
+
+    position: relative;
+    
+}
+.icons a img{
+    padding-right: 0.8rem;
+    transition: transform 0.3s ease;
+}
+
+.icons a img:hover{
+    transform: scale(0.85);
+}

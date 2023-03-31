@@ -1,0 +1,87 @@
+
+.backScreen{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-color: black;
+    z-index: 4;
+    opacity: 0.8;
+    display: none;
+}
+
+.form{
+    position:fixed;
+    top:7rem;
+    left: 29rem;
+    width:fit-content;
+    height:25rem;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    z-index: 5;
+    display: none;
+}
+
+form{
+    margin: 0.5rem 1rem;
+}
+
+.form{
+    width: fit-content;
+    margin: 2rem auto;
+    
+    font-family: 'Poppins', sans-serif;
+}
+
+.form .colorline{
+    height: 5px;
+    width: 100%;
+    background :linear-gradient(45deg, rgb(50, 241, 126),yellow,rgb(179, 16, 234),blue);
+}
+
+.form h1{
+    font-weight: 600;
+    background-color: rgb(13,14,17);
+    color: aliceblue;
+    text-align: center;
+}
+
+input,textarea,button{
+    display: block;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+input{
+    width: 35rem;
+    height: 3rem;
+    padding: 0.5rem;
+    margin-bottom: 1.1rem;
+    border: 2px solid black;
+}
+textarea{
+    width: 35rem;
+    padding: 0.5rem;
+    border: 2px solid black;
+    margin-bottom: 0.9rem;
+    resize: vertical;
+
+}
+
+#SumbitBut{
+    padding: 0.3rem 1.4rem;
+    background-color: black;
+    color: aliceblue;
+    transition: transform 0.3s ease;
+}
+
+#SumbitBut:hover{
+    background-color: rgb(162, 162, 162);
+    color: rgb(0, 0, 0);
+}
+
+#SumbitBut:active{
+
+    transform: scale(0.9);
+}

@@ -11,10 +11,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-
+    
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
     <link rel="stylesheet" href="styles/comments.css">
-    <script src="comment.js" defer></script>
+    <link rel="stylesheet" href="styles/navbar2.css">
+    <script src="/javaScript/comment.js" defer></script>
     <title>blog.</title>
 </head>
 
@@ -25,32 +26,38 @@
             <li><a href="home.html">Home</a></li>
             <li><a href="destination.html">Destinations</a></li>
             <li><a href="comment.html">Comments</a></li>
-            <li><a href="">About</a></li>
+            <li><a href="about.html">About</a></li>
+    
         </ul>
+        <img src="icons/6076f540d539fa8c97126f0b_straigtaway.svg" alt="" id="strit">
     </div>
 
     <div class="colorline">
 
     </div>
-    <div class="form">
-    <form>
-        <h1>comments</h1>
-        
-        <label for="name">name</label>
-        <input type="text" id="name" name="user-name" required>
-
-        <label for="user-Area">your comment /<span id="number">99</span> </label>
-        <textarea name="user-Text" id="user-Area" cols="30" rows="7" maxlength="99"></textarea>
-        <button type="submit">Submit</button>
-        </form>
+    <div id="app" v-cloak>
+        <div class="colorline">
+    
+        </div>
+        <div class="form">
+        <form @submit.prevent="submit">
+            <h1>comments</h1>
+            
+            <label for="name">name</label>
+            <input type="text" id="name" name="user-name" v-model="userName"  required>
+    
+            <label for="user-Area">your comment /<span id="number">{{userLength}}</span> </label>
+            <textarea name="user-Text" id="user-Area" cols="30" rows="7" maxlength="99" v-model="comment" @input="inputUser"></textarea>
+            <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="commentSection">
+            <h1>all comments(<span id="number2">{{length}}</span>)</h1>
+            <ul id="ulList">
+                
+            </ul>
+        </div>
     </div>
-    <div class="commentSection">
-        <h1>all comments(<span id="number2">0</span>)</h1>
-        <ul id="ulList">
-
-        </ul>
-    </div>
-    </form>
 </body>
 </html>
 

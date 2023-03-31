@@ -1,0 +1,100 @@
+.navbar{
+
+    display: flex;
+    gap: 20px;
+    position: sticky;
+    top:0;
+    left: 0;
+    z-index: 2;
+    padding: 0.6rem 14.8rem;
+    background-color: rgb(13,14,17);
+    box-shadow: 0 3px 9px rgb(0, 0, 0,0.2);    
+}
+
+.navbar h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: rgb(221, 38, 38);
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-self: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.0rem;
+    font-weight: 530;
+    gap: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+     color: rgb(211, 211, 211);
+}
+
+ul li a:hover{
+    color: rgb(255, 255, 255);
+}
+
+ul li::before{
+    position: absolute;
+    content: '';
+    height: 5px;
+    width: 15px;
+    background-color: aliceblue;
+    display: none;
+}
+
+#login{
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    left: 69.5rem;
+    align-self: center;
+    border-radius: 20px;
+    border: 2px solid rgb(218, 218, 218);
+    background-color: rgb(13,14,17);
+    padding: 0.5rem 1.2rem;
+    position:absolute;
+    right: 21.5rem;
+    font-weight: 600;
+    color: aliceblue;
+    
+   
+}
+
+#login:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgb(218, 218, 218);
+}
+
+#signup {
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 600;
+    align-self: center;
+    background-color: rgb(218, 218, 218);
+    border: 2px solid rgb(218, 218, 218);
+    border-radius: 20px;
+    padding: 0.5rem 1.2rem;
+    color: rgba(0, 0, 0, 0.43);  
+    position: absolute;
+    right: 15rem;
+    user-select: none;
+    
+         
+}
+
+#signup:hover{
+    color: rgb(218, 218, 218);
+    border: 2px solid rgb(218, 218, 218);
+    background-color: rgb(13,14,17);
+    
+}
+
+#userProtocol{
+    margin-left: 29rem;
+}
+

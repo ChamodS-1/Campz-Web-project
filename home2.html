@@ -12,8 +12,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-
-    <link rel="stylesheet" href="styles/home2.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/mainPagePic2.css">
+    <link rel="stylesheet" href="styles/signUp.css">
+    <link rel="stylesheet" href="styles/login.css">
+    <link rel="stylesheet" href="styles/navbar.css">
+    <script src="/javaScript/SignUp.js" defer></script>
     <title>blog.</title>
 </head>
 
@@ -24,8 +28,14 @@
             <li><a href="">Home</a></li>
             <li><a href="destination.html">Destinations</a></li>
             <li><a href="comment.html">Comments</a></li>
-            <li><a href="">About</a></li>
+            <li><a href="about.html">About</a></li>
+            <button  type="button" id="login">LOGIN</button>
+            <button type="button" id="signup">SIGN UP</button>
+            
+               
         </ul>
+       
+        
     </div>
 
     <div class="mainpage">
@@ -33,17 +43,47 @@
             <h1 class="blog">blog...</h1>
             <h1 class="welcome">welcome</h1>
             <h4>CHAMOD'S TRAVEL BLOG | EXPLORE MORE</h4>
-            <div class="button">
-                <a href="destination.html"> <button>START EXPLORE</button></a>
+            <div class="buthton">
+                <a href="destination.html"><button>START TOUR</button></a>
             </div>
-            <div class="navigator">
-                <a href="/home.html"> <div class="circle" id="set1"></div></a>
-                <a href="/home2.html"><div class="circle" id="set2"></div></a>
-                <a href="/home3.html"><div class="circle" id="set3"></div></a>
-            </div>
+        
 
         </div>
         <h1 class="watermark">blog.</h1>
+        <div class="mainBlock">
+            <div class="mainblock2">
+            <a href="/home.html"><div class="circle1" id="color1"></div></a>
+            <a href="/home2.html"> <div class="circle1" id="color2"></div></a>
+            <a href="/home3.html"> <div class="circle1" id="color3"></div></a>
+            <a href="/home.html"> <div class="circle1" id="color4"></div></a>
+            <a href="/home.html"> <div class="circle1" id="color5"></div></a>
+            <a href="/home.html"> <div class="circle1" id="color6"></div></a>
+        </div>
+        <h1 class="mainBlock1">blog</h1>
+        </div>
+    </div>
+
+    <div class="backScreen">
+
+    </div>
+
+    <div class="form">
+       
+            <h1>Sign Up</h1>
+            <div class="colorline">
+            </div>
+            <form>
+            <label for="name">name</label>
+            <input type="text" id="name" name="user-name" required>
+
+            <label for="email">email</label>
+            <input type="email" id="email" name="user-email" required>
+
+            <label for="password">password</label>
+            <input type="password" id="password" name="user-password" required>
+    
+            <button id="SumbitBut"  type="submit">Submit</button>
+            </form>
     </div>
 
 </body>
