@@ -12,7 +12,7 @@ body{
 }
 
 .mainpage{
-    background-image: url('/images/test3.png');
+    background-image: url('images/test3.png');
     position: relative;
     background-size: cover;
     background-position: center;
