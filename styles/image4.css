@@ -11,7 +11,7 @@ body{
 }
 
 .mainpage{
-    background-image: url('/images/mainpic5.png');
+    background-image: url('https://raw.githubusercontent.com/ChamodS-1/Campz-Web-project/main/images/mainpic5.png');
     position: relative;
     background-size: cover;
     background-position: center;
